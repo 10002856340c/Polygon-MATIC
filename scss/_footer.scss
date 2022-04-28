@@ -1,0 +1,84 @@
+/*inicia las propiedades del footer*/
+
+footer {
+  background-color:map-get($map:$paleta, $key:color5);
+  color: map-get($map:$paleta, $key:color3 );
+  .footer__items {
+    display: grid;
+    gap: 1em;
+  }
+
+  .footer__logo {
+    width: 150px;
+    display: block;
+    margin-bottom: 2em;
+  }
+
+  .footer__contact {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .footer__contact-second {
+    margin-bottom: 1em;
+  }
+
+  .footer__icon {
+    margin-top: 3px;
+  }
+
+  .footer__nav {
+    margin-top: 2.5em;
+    display: grid;
+    gap: 0.8em;
+  }
+
+  .footer__link {
+    color: map-get($map:$paleta, $key:color3 );
+    text-decoration: none;
+  }
+
+  .footer__social {
+    margin-top: 2em;
+    margin: 0 auto;
+  }
+
+  .footer__media {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .footer__media:hover {
+    background: map-get($map:$paleta, $key:color3 );
+    cursor: pointer;
+  }
+
+  .footer__media--last {
+    margin-right: 0;
+  }
+  .footer__img {
+    height: 50px;
+    width: 50px;
+  }
+  #footer {
+    background: map-get($map:$paleta, $key:color5);
+  }
+}
+
+#iconos {
+  height: 30px;
+  width: 30px;
+}
+
+/*termina las propiedades del footer*/
+
+/*algunas propiedades para el formulario*/
+#formulario {
+  background: map-get($map:$paleta, $key:color3 );
+}

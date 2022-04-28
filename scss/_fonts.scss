@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+//variables para los tipos de letra
+$font-principal: "Raleway", sans-serif;
+
+//caracteristicas de la letra
+$grosor: 400;
+
+/*tipos de letras y sus respectivos colores*/
+#letra {
+  @include texto(16px, 100, $font-principal, map-get($map:$paleta, $key:color5 ));
+}
+
+.about__title {
+  @include texto2(11.4em, 1em, $font-principal, map-get($map:$paleta, $key:color5));
+}
+.h1{
+  text-align: center;
+ color: map-get($map:$paleta, $key:color3);
+}
+#textos{
+  color: map-get($map:$paleta, $key:color3 );
+}
+#texto {
+  color: map-get($map:$paleta, $key:color5);
+  font-weight:500;
+}
+p {
+  font-weight: $grosor;
+  color: map-get($map:$paleta, $key:color5);
+  font-size: large;
+}
+.join__title {
+  font-family: $font-principal;
+  margin-bottom: 1em;
+}
+
+section {
+  .productive__paragraph {
+    color: map-get($map:$paleta, $key:color5);
+  }
+  .productive__title {
+    color: map-get($map:$paleta, $key:color5);
+  }
+}
+
+.blanco {
+  color: map-get($map:$paleta, $key:color3 );
+}
+
+.productive__title {
+  font-family: $font-principal;
+  margin-bottom: 0.7em;
+}
+.productive__paragraph {
+  line-height: 1.7em;
+  margin-bottom: 1em;
+}

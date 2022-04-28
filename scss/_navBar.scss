@@ -1,0 +1,118 @@
+//variables para el nav
+$posicion: fixed;
+
+/*propiedades del nav*/
+#nav {
+  position: $posicion;
+  background-color: map-get($map:$paleta, $key:color5);
+  a {
+    color: map-get($map:$paleta, $key:color3 );
+  }
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  .logo {
+    width: 100px;
+    height: 80px;
+    transform: translateX(60%) translateY(-22%);
+  }
+  ul {
+    float: right;
+    margin-right: 20px;
+    li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+      a {
+        color: map-get($map:$paleta, $key:color5 );
+        font-size: 18px;
+        font-family: $font-principal;
+        font-weight: bold;
+        padding: 7px 13px;
+        text-decoration: none;
+        border-radius: 5px;
+        &:hover {
+          background: map-get($map:$paleta, $key:color4);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+#logos {
+  width: 70px;
+  height: 70px;
+}
+main {
+  background-color: map-get($map:$paleta, $key:color3 );
+}
+.contenedor {
+  .navegador {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background: map-get($map:$paleta, $key:color5);
+  }
+}
+.navegadorp {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: map-get($map:$paleta, $key:color5 );
+}
+
+.nav__logo {
+  width: 100px;
+  transform: translateX(70%) translateY(-1%);
+}
+
+.nav__img {
+  width: 105px;
+  display: block;
+  border-radius: 5%;
+}
+
+.nav__link:first-of-type {
+  margin-left: auto;
+}
+#boton {
+  display: flow-root;
+}
+/*termina las propiedades del nav*/
+
+/*logos*/
+#logo {
+  width: 70px;
+  height: 70px;
+}
+#logos {
+  width: 90px;
+  height: 90px;
+}
+#logos2 {
+  width: 90px;
+  height: 90px;
+}
+/*botonera*/
+.btn-shop {
+  background-color: map-get($map:$paleta, $key:color6);
+
+}
+
+.btn-shop:hover {
+
+background-color: map-get($map:$paleta, $key:color3);;
+  color: map-get($map:$paleta, $key:color5);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+

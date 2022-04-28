@@ -1,0 +1,43 @@
+//mixins para el texto de nuestra pagina
+@mixin texto($front-size, $front-weight, $front-family, $color) {
+  font-size: $front-size;
+  font-weight: $front-weight;
+  font-family: $front-family;
+  color: $color;
+  padding: 5px 4px;
+}
+
+@mixin texto2($margin-top, $margin-bottom, $front-family, $color) {
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  font-family: $front-family;
+  color: $color;
+}
+
+@mixin texto3($margin-left, $vertical, $width, $height) {
+  margin-left: $margin-left;
+  vertical-align: $vertical;
+  width: $width;
+  height: $height;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//mixins para nuestro nav
+
+@mixin texto4($width, $height, $display, $position, $top, $color) {
+  width: $width;
+  height: $height;
+  display: $display;
+  position: $position;
+  top: $top;
+  background-color: $color;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//mixins para las imagenes de nuestro pagina
+
+@mixin texto5($height, $width) {
+  height: $height;
+  width: $width;
+}

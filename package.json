@@ -1,0 +1,25 @@
+{
+  "name": "1index.html",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/stilo3.scss css/stilo3.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10002856340c/desafiocoder.git"
+  },
+  "author": "cris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/10002856340c/desafiocoder/issues"
+  },
+  "homepage": "https://github.com/10002856340c/desafiocoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

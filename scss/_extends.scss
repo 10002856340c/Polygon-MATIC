@@ -1,0 +1,18 @@
+//extends para nuestra botonera
+
+.border {
+  border-radius: 2em;
+}
+.cajo {
+  @extend .border;
+  border-radius: 2em;
+}
+//extends para nuestra imagenes del index
+
+.productives {
+  display: block;
+}
+.productive__img {
+  @extend .productives;
+  display: block;
+}
