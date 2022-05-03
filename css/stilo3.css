@@ -489,7 +489,6 @@ section .productive__title {
 
 /*propiedades del nav*/
 #nav {
-  position: fixed;
   background-color: black; }
   #nav a {
     color: white; }

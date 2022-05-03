@@ -1,9 +1,8 @@
 //variables para el nav
-$posicion: fixed;
+
 
 /*propiedades del nav*/
 #nav {
-  position: $posicion;
   background-color: map-get($map:$paleta, $key:color5);
   a {
     color: map-get($map:$paleta, $key:color3 );
