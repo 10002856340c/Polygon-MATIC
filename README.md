@@ -1,8 +1,8 @@
 # Poligon-MATIC-
 
 En esta pagina Web hablaremos sobre las ventajas que tiene el Ecosistema de polygon MATIC , y sutoken Matic, sus aportes al ecosistema blockchain y su crecimineto en el mundo crypto.
-<br>
-<\br>
+
+
 Conoceras a sus fundadores y los proyectos mas importantes que han podido crar gracias a este escosistema junto al ecosistema de Ethereum.
 
 ![image](https://user-images.githubusercontent.com/101605501/176791698-a64e6c4b-3b6a-452d-9d90-b9c05c99c87c.png)
